@@ -1,0 +1,15 @@
+{
+  "name": "fixtures",
+  "main": "./lib/fixtures",
+  "version": "0.0.0",
+  "private": true,
+  "description": "just another node app",
+  "repository": "https://github.com/bdunford/fixtures",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "scripts": {
+    "postinstall": "node -e \"require('fs').mkdir('../../fixtures',function(e){console.log(e && 'fixtures directory already exists' || 'fixtures directory created')})\"",
+    "test": "jasmine-node spec"
+  }
+}
