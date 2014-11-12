@@ -1,6 +1,6 @@
 #Fixtures
 
-For quickly adding data to a node Project. Ideal for mock or testing data.  Fixtures serve up json files as a data source.
+For quickly adding data to a node project. Ideal for mock or testing data.  Fixtures serve up json files as a data source.
 
 Requires Nodejs http://nodejs.org
 
