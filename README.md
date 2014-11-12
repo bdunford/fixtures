@@ -24,7 +24,7 @@ add "fixtures": "git+https://github.com/bdunford/fixtures.git" to dependencies <
 }
 
 ```
-__Rawda__<br />
+__Raw__<br />
 ```git clone https://github.com/bdunford/fixtures```
 <br />
 Be sure to run npm install from with in the __fixtures__ directory
