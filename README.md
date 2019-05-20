@@ -1,11 +1,11 @@
-#Fixtures
+# Fixtures
 
 For quickly adding data to a node project. Ideal for mock or testing data.  Fixtures serve up json files as a data source.
 
 Requires Nodejs http://nodejs.org
 
 
-##Installing
+## Installing
 
 __From the Command Line__<br />
 npm install git+https://github.com/bdunford/fixtures.git
@@ -30,7 +30,7 @@ __Raw__<br />
 Be sure to run npm install from with in the __fixtures__ directory
 
 
-##Usage
+## Usage
 
 Require fixtures in your javascript
 
@@ -39,7 +39,7 @@ var fixtures = require('fixtures');
 
 ```
 
-###Methods
+### Methods
 __store__ returns an instance of Store for the matching JSON file found with in the fixtures directory If you had the following JSON file in your directory ```fixtures/cusomters.json```
 ```javascript
     fixtures.store('customers'); //will return
@@ -76,7 +76,7 @@ __Store.find__ returns the contents of the JSON file matching the filter object 
    fixtures.store("customers").find({lastName: "smith"});
 //will return the content of "fixtures/cusomters.json" parsed to an array where the customers had a lastName of smith.
 ```
-###Properties
+### Properties
 
 __location__ can be set on fixtures to control the location of the JSON files. The default location is fixtures/
 ```javascript
